@@ -6,9 +6,9 @@ import javax.swing.*;
 public class ToolKit extends JFrame implements ActionListener {
 
     // Declare Swing components
-    private JTextField input;
-    private JButton words, characters, palindrome, reversal, vowels, consonants, average;
-    private JLabel enter;
+    private JTextField input; // Input from user
+    private JButton words, characters, palindrome, reversal, vowels, consonants, average; // All buttons with functionalities 
+    private JLabel enter; // Label to indicate where to enter string of words
 
     // Constructor
     ToolKit() {
