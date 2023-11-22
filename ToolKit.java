@@ -103,14 +103,14 @@ public class ToolKit extends JFrame implements ActionListener {
                     count++;
                 }
             }
-            JOptionPane.showMessageDialog(this, "This string has " + count + " consonants.");
+            JOptionPane.showMessageDialog(this, "This string has " + count + " consonants."); // Output number of consonants
         }
 
         // If "average" button gets clicked
         if (e.getSource() == average) {
             String[] words = text.split("\\s+");
-            double average = words.length > 0 ? (double) text.length() / words.length : 0;
-            JOptionPane.showMessageDialog(this, "Average is: " + average);
+            double average = words.length > 0 ? (double) text.length() / words.length : 0; // Calculate average
+            JOptionPane.showMessageDialog(this, "Average is: " + average); // Output average
         }
     }
 
